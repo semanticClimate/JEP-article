@@ -19,5 +19,5 @@ digraph G {
 
 	// Rank constraints for layout
 	{ rank=same; IPCC_Reports; sematicClimate_tooling; }
-	{ rank=same; Wikibase; W3C_CSS_Paged_Media_Web_Publication_Manifest; }
+	{ rank=same; Wikibase; W3C(World Wide Web Consortium)_CSS_Paged_Media_Web_Publication_Manifest; }
 }
