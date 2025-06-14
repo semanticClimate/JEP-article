@@ -7,15 +7,15 @@ digraph SemanticTools {
     node [shape=box style=filled];
 
     // Nodes with specific labels
-    "literature search" [label="literature search" fillcolor=lightpink];
+    "Literature search" [label="Literature search" fillcolor=lightpink];
 	Wordlist [label="Wordlist" fillcolor=lightyellow];
-	"Dictionary(Wikimedia enhanced)" [label="Dictionary(Wikimedia enhanced)" fillcolor=lightblue];
-	"IPCC Chapters(on climate justice)" [label="IPCC Chapters(on climate justice)" fillcolor=lightpink];
+	"Dictionary (Wikimedia enhanced)" [label="Dictionary (Wikimedia enhanced)" fillcolor=lightblue];
+	"IPCC chapters (on climate justice)" [label="IPCC chapters (on climate justice)" fillcolor=lightpink];
 	
       
     // Define edges
-   "literature search" -> Wordlist [color=black];
-    Wordlist -> "Dictionary(Wikimedia enhanced)" [color=black , label="   amilib"];
-   "IPCC Chapters(on climate justice)" -> Wordlist [color=black , label="   Keyword extraction "]
+   "Literature search" -> Wordlist [color=black];
+    Wordlist -> "Dictionary (Wikimedia enhanced)" [color=black , label="   amilib"];
+   "IPCC chapters (on climate justice)" -> Wordlist [color=black , label="   Keyword extraction "]
 
    }
